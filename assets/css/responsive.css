@@ -1,0 +1,243 @@
+/* Tablet */
+@media (max-width:63.9375em) and (min-width:46.25em) {
+    .scroll__left--mtl {
+        margin-left: 9px;
+    }
+
+    .scroll__left--mtr {
+        margin-right: 9px;
+    }
+}
+
+/* Tablet & mobile */
+@media (max-width:63.9375em) {
+    .header__nav::after {
+        display: none;
+    }
+
+    .hide-on-tablet-mobile {
+        display: none;
+    }
+
+    .header__icon-link--hide-on-pc {
+        display: block;
+    }
+
+    .header__list {
+        padding-top: 10px;
+        flex-direction: column;
+    }
+
+
+    .header__list-item-link {
+        padding: 10px;
+        display: block;
+        color: #000;
+        font-size: 1.6rem;
+    }
+
+    .header-list-link-category,
+    .header__list-link-mini-category {
+        border-bottom: none;
+        font-size: 1.4rem;
+    }
+
+    .header__list-category {
+        position: inherit;
+        animation: none;
+        box-shadow: none;
+        padding-left: 20px;
+    }
+
+    .header__list-mini-category {
+        box-shadow: none;
+        animation: none;
+        position: inherit;
+        left: unset;
+        background: none;
+        padding-left: 20px;
+    }
+
+    .slider__img {
+        width: 100%;
+    }
+
+    .home-promotion__product--res,
+    .home-category-product--res {
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+    }
+
+    .home-category-product-item--res {
+        padding: 0 12px;
+    }
+
+    .home-promotion__product-promotion--res {
+        flex-shrink: 0;
+    }
+
+    .scroll__left,
+    .scroll__right {
+        display: block;
+    }
+
+    .other__product-wrap,
+    .home-product__wrap-item {
+        flex-wrap: nowrap;
+        position: relative;
+        overflow-x: auto;
+    }
+
+    .footer {
+        padding-bottom: 40px;
+    }
+
+    .mt-20 {
+        margin-top: 20px;
+    }
+
+    .mt-10 {
+        margin-top: 10px;
+    }
+
+    .no-scroll::-webkit-scrollbar {
+        display: none;
+    }
+
+    .item-position {
+        position: relative;
+    }
+
+}
+
+/* mobile */
+@media (max-width: 46.1875em) {
+    :root {
+        --header-height: 140px;
+    }
+
+    .hide-on-mobile {
+        display: none;
+    }
+
+    .Header__img img {
+        width: 73%;
+    }
+
+    .Header__img {
+        padding: 10px 0 0 12px;
+    }
+
+    .header__nav {
+        align-items: flex-start;
+    }
+
+    .header__search-icon-wrap {
+        padding-top: 22px;
+    }
+
+    .header__search form {
+        position: absolute;
+        top: 58%;
+        transform: translateX(-50%);
+        left: 50%;
+        width: 94%;
+    }
+
+    .header__search-input {
+        width: 84%;
+    }
+
+    .slider__img {
+        height: 200px;
+    }
+
+    .home-promotion__decription {
+        width: 80vw;
+    }
+
+    .home-promotion__heading {
+        font-size: 2.4rem;
+    }
+
+    .home-promotion {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .home-promotion__img {
+        height: 170px;
+    }
+
+    .advertise-list {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .ml-10 {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .home__order {
+        order: -1;
+    }
+
+    .other__heading {
+        font-size: 2.4rem;
+    }
+
+    .other__line {
+        margin-top: 10px;
+    }
+
+    .modal {
+        width: 80%;
+    }
+
+    .home-product__category {
+        padding: 15px;
+    }
+
+    .home-product__category-heading {
+        padding: 10px;
+    }
+
+    .home-product__category-head-mobile {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+    .mobile-menu-icon {
+        display: block;
+    }
+
+    #menu-mobile-apper__one:checked~.home-product__category-wrap-mobile,
+    #menu-mobile-apper__two:checked~.home-product__category-wrap-mobile,
+    #menu-mobile-apper__three:checked~.home-product__category-wrap-mobile {
+        display: block;
+    }
+
+    .home-product__category-wrap-mobile {
+        padding-left: 26px;
+    }
+
+    .home-product__buy-product {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
+    .scroll__left--mtl {
+        margin-left: 19px;
+    }
+
+    .scroll__left--mtr {
+        margin-right: 19px;
+    }
+
+
+
+
+}

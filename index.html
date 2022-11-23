@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fresh Market</title>
+    <link rel="icon" href="https://sfresh.w2.exdomain.net/image/catalog/sfresh/logo/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="grid wide">
+                <div class="header__nav">
+                    <ul class="header__list hide-on-tablet-mobile">
+                        <li class="header__list-item">
+                            <a href="#" class="header__list-item-link">Trang chủ</a>
+                        </li>
+                        <li class="header__list-item">
+                            <a href="#" class="header__list-item-link">Giới thiệu</a>
+                        </li>
+                        <li class="header__list-item header__list-item--rorate-icon">
+                            <a href="#" class="header__list-item-link">
+                                Sản phẩm
+                                <i class="header__list-item-link-icon-down fa-sharp fa-solid fa-caret-down"></i>
+                            </a>
+                            <ul class="header__list-category">
+                                <li class="header__list-item-category">
+                                    <a href="#" class="header-list-link-category">Hạt giống</a>
+                                </li>
+                                <li class="header__list-item-category">
+                                    <a href="#" class="header-list-link-category">Hải sản tươi</a>
+                                </li>
+                                <li class="header__list-item-category">
+                                    <a href="#" class="header-list-link-category">Rau củ quả</a>
+                                </li>
+                                <li class="header__list-item-category">
+                                    <a href="#" class="header-list-link-category">Sản phẩm bán chạy</a>
+                                </li>
+                                <li class="header__list-item-category">
+                                    <a href="#" class="header-list-link-category">Thịt tươi sống</a>
+                                </li>
+                                <li class="header__list-item-category">
+                                    <a href="#" class="header-list-link-category">Thực phẩm tết</a>
+                                </li>
+                                <li class="header__list-item-category">
+                                    <a href="#" class="header-list-link-category">Thưc phẩm khô</a>
+                                </li>
+                                <li class="header__list-item-category header__list-item-category--has-mini-category">
+                                    <a href="#" class="header-list-link-category">
+                                        Trái cây
+                                        <i class="fa-sharp fa-solid fa-caret-right"></i>
+                                    </a>
+                                    <ul class="header__list-mini-category">
+                                        <li class="header__list-item-mini-category">
+                                            <a href="#" class="header__list-link-mini-category">Chuối</a>
+                                        </li>
+                                        <li class="header__list-item-mini-category">
+                                            <a href="#" class="header__list-link-mini-category">Táo</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="header__list-item-category">
+                                    <a href="#" class="header-list-link-category">Trứng và bơ</a>
+                                </li>
+                                <li class="header__list-item-category">
+                                    <a href="#" class="header-list-link-category">Đồ ăn đóng hộp</a>
+                                </li>
+                                <li class="header__list-item-category">
+                                    <a href="#" class="header-list-link-category">Đồ uống</a>
+                                </li>
+                                
+                            </ul>
+                        </li>
+                        <li class="header__list-item">
+                            <a href="#" class="header__list-item-link">Tin tức</a>
+                        </li>
+                        <li class="header__list-item">
+                            <a href="#" class="header__list-item-link">Liên hệ</a>
+                        </li>
+                    </ul>
+    
+                    <div class="Header__img">
+                        <img src="https://sfresh.w2.exdomain.net/image/catalog/sfresh/logo/logo.png" alt="">
+                    </div>
+    
+                    <div class="header__search">
+                        <form action="" >
+                            <input type="text" class="header__search-input" placeholder="Tìm kiếm" style="
+                            color: #ffb416;
+                        ">
+                            <button class="header__search-btn">
+                                <i class="header__search-btn-icon fa-solid fa-magnifying-glass"></i>
+                            </button>
+                        </form>
+    
+                        <div class="header__search-icon-wrap">
+                            <span class="header__icon-link">
+                                <i class="fa-solid fa-heart"></i>
+                            </span>
+                            <span class="header__icon-link">
+                                <i class="fa-sharp fa-solid fa-cart-shopping"></i>
+                            </span>
+                            <span class="header__icon-link header__icon-link--no-number hide-on-tablet-mobile">
+                                <i class="fa-solid fa-user"></i>
+                            </span>
+                            <label for="menu-check" class="header__icon-link header__icon-link--no-number header__icon-link--hide-on-pc ">
+                                <i class="fa-solid fa-bars"></i>
+                            <label>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+        </header>
+        <input type="checkbox" id ="menu-check">
+        <label for="menu-check" class="overlay"></label>
+        <div class="modal">
+            <label for="menu-check" class="modal__close">
+                <i class="fa-solid fa-xmark"></i>
+            </label>
+            <div class="modal__head">
+                <a href="#" class="modal__login">Đăng nhập</a>
+                <a href="#" class="modal__register">Đăng ký</a>
+            </div>
+            <ul class="header__list">
+                <li class="header__list-item">
+                    <a href="#" class="header__list-item-link">Trang chủ</a>
+                </li>
+                <li class="header__list-item">
+                    <a href="#" class="header__list-item-link">Giới thiệu</a>
+                </li>
+                <li class="header__list-item header__list-item--rorate-icon">
+                    <a href="#" class="header__list-item-link">
+                        Sản phẩm
+                        <i class="header__list-item-link-icon-down fa-sharp fa-solid fa-caret-down"></i>
+                    </a>
+                    <ul class="header__list-category">
+                        <li class="header__list-item-category">
+                            <a href="#" class="header-list-link-category">Hạt giống</a>
+                        </li>
+                        <li class="header__list-item-category">
+                            <a href="#" class="header-list-link-category">Hải sản tươi</a>
+                        </li>
+                        <li class="header__list-item-category">
+                            <a href="#" class="header-list-link-category">Rau củ quả</a>
+                        </li>
+                        <li class="header__list-item-category">
+                            <a href="#" class="header-list-link-category">Sản phẩm bán chạy</a>
+                        </li>
+                        <li class="header__list-item-category">
+                            <a href="#" class="header-list-link-category">Thịt tươi sống</a>
+                        </li>
+                        <li class="header__list-item-category">
+                            <a href="#" class="header-list-link-category">Thực phẩm tết</a>
+                        </li>
+                        <li class="header__list-item-category">
+                            <a href="#" class="header-list-link-category">Thưc phẩm khô</a>
+                        </li>
+                        <li class="header__list-item-category header__list-item-category--has-mini-category">
+                            <a href="#" class="header-list-link-category">
+                                Trái cây
+                                <i class="fa-sharp fa-solid fa-caret-right"></i>
+                            </a>
+                            <ul class="header__list-mini-category">
+                                <li class="header__list-item-mini-category">
+                                    <a href="#" class="header__list-link-mini-category">Chuối</a>
+                                </li>
+                                <li class="header__list-item-mini-category">
+                                    <a href="#" class="header__list-link-mini-category">Táo</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="header__list-item-category">
+                            <a href="#" class="header-list-link-category">Trứng và bơ</a>
+                        </li>
+                        <li class="header__list-item-category">
+                            <a href="#" class="header-list-link-category">Đồ ăn đóng hộp</a>
+                        </li>
+                        <li class="header__list-item-category">
+                            <a href="#" class="header-list-link-category">Đồ uống</a>
+                        </li>
+                        
+                    </ul>
+                </li>
+                <li class="header__list-item">
+                    <a href="#" class="header__list-item-link">Tin tức</a>
+                </li>
+                <li class="header__list-item">
+                    <a href="#" class="header__list-item-link">Liên hệ</a>
+                </li>
+            </ul>
+        </div>
+    
+        <div class="slider">
+            <img class="slider__img" src="https://sfresh.w2.exdomain.net/image/cache/catalog/sfresh/slide/slider_1-1650x540.png" alt="">
+        </div>
+    
+        <div class="content">
+            <div class="grid wide">
+                    <div class="home-category-product">
+                        <div class="row home-category-product--res no-scroll">
+                            <div class="col l-2 m-3 c-6">
+                                <a href="#" class="content-category">
+                                    <div class="content-category-wrap">
+                                        <img class="content-catrgory__img" src="https://sfresh.w2.exdomain.net/image/cache/catalog/sfresh/categories/cate_5-150x150.jpg" alt="">
+                                    </div>
+                                    <span class="content-category__name">Rau củ quả</span>
+                                </a>
+                            </div>
+                            <div class="col l-2 m-3 c-6">
+                                <a href="#" class="content-category">
+                                    <div class="content-category-wrap">
+                                        <img class="content-catrgory__img" src="https://sfresh.w2.exdomain.net/image/cache/catalog/sfresh/categories/cate_3-150x150.jpg" alt="">
+                                    </div>
+                                    <span class="content-category__name">Thịt tươi sống</span>
+                                </a>
+                            </div>
+                            <div class="col l-2 m-3 c-6">
+                                <a href="#" class="content-category">
+                                    <div class="content-category-wrap">
+                                        <img class="content-catrgory__img" src="https://sfresh.w2.exdomain.net/image/cache/catalog/sfresh/categories/cate_2-150x150.png" alt="">
+                                    </div>
+                                    <span class="content-category__name">Thực phẩm khô</span>
+                                </a>
+                            </div>
+                            <div class="col l-2 m-3 c-6">
+                                <a href="#" class="content-category">
+                                    <div class="content-category-wrap">
+                                        <img class="content-catrgory__img" src="https://sfresh.w2.exdomain.net/image/cache/catalog/sfresh/categories/cate_4-150x150.jpg" alt="">
+                                    </div>
+                                    <span class="content-category__name">Trái cây</span>
+                                </a>
+                            </div>
+                            <div class="col l-2 m-3 c-6">
+                                <a href="#" class="content-category">
+                                    <div class="content-category-wrap">
+                                        <img class="content-catrgory__img" src="https://sfresh.w2.exdomain.net/image/cache/catalog/sfresh/categories/cate_1-150x150.png" alt="">
+                                    </div>
+                                    <span class="content-category__name">Trứng và bơ</span>
+                                </a>
+                            </div>
+                            <div class="col l-2 m-3 c-6">
+                                <a href="#" class="content-category">
+                                    <div class="content-category-wrap">
+                                        <img class="content-catrgory__img" src="https://sfresh.w2.exdomain.net/image/cache/catalog/sfresh/categories/cate_6-150x150.jpg" alt="">
+                                    </div>
+                                    <span class="content-category__name">Đồ uống</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="home-promotion">
+                        <label for="check-scroll" class="scroll__left" >
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </label>
+                        <label for="check-scroll" class="scroll__right">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </label>
+    
+                        <div class="home-promotion__decription">
+                            <img src="https://cdn-icons-png.flaticon.com/512/1685/1685230.png" alt="">
+                            <h3 class="home-promotion__heading">Ưu đãi trong tuần</h3>
+                        </div>
+                        
+                        <div class="home-promotion__product">
+                            
+                            <div class="row home-promotion__product--res no-scroll">
+                                <input type="checkbox" name="" id="check-scroll">
+                                <div class="col l-2-4 m-4 c-6 home-promotion__product-promotion--res">                              
+                                    <a href="#" class="home-promotion__product-promotion home-promotion__product-promotion--has-line home-promotion__product-promotion-1">
+                                       
+                                        <div class="home-promotion__img-wrap">
+                                            <img class="home-promotion__img" src="https://sfresh.w2.exdomain.net/image/cache/catalog/sfresh/products/thuc-pham-kho/sp24-0x0.jpg" alt="">
+                                        </div>
+                                        <span class="home-promotion__name">Bánh mì gối</span>
+                                        <div class="home-promotion__pice-wrap">
+                                            <span class="home-promotion__price">20.000đ</span>                                     
+                                        </div>
+                                        <div class="home-promotion__help">
+                                            <span class="home-promotion__help-like"><i class="fa-solid fa-heart"></i></span>
+                                            <span class="home-promotion__help-setting"><i class="fa-sharp fa-solid fa-gear"></i></span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6 home-promotion__product-promotion--res">
+                                    <a href="#" class="home-promotion__product-promotion home-promotion__product-promotion--has-line">
+                                        <div class="home-promotion__sale-off">-56%</div>
+                                        <div class="home-promotion__img-wrap">
+                                            <img class="home-promotion__img" src="https://sfresh.w2.exdomain.net/image/cache/catalog/sfresh/products/thuc-pham-kho/sp22-0x0.jpg" alt="">
+                                        </div>
+                                        <span class="home-promotion__name">Ổi lê ruột đỏ</span>
+                                        <div class="home-promotion__pice-wrap">
+                                            <span class="home-promotion__price">28.000đ</span>
+                                            <span class="home-promotion__old-price">50.000đ</span>
+                                        </div>
+                                        <div class="home-promotion__help">
+                                            <span class="home-promotion__help-like"><i class="fa-solid fa-heart"></i></span>
+                                            <span class="home-promotion__help-setting"><i class="fa-sharp fa-solid fa-gear"></i></span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6 home-promotion__product-promotion--res">
+                                    <a href="#" class="home-promotion__product-promotion home-promotion__product-promotion--has-line">
+                                        <div class="home-promotion__sale-off">-62%</div>
+                                        <div class="home-promotion__img-wrap">
+                                            <img class="home-promotion__img" src="https://sfresh.w2.exdomain.net/image/cache/catalog/sfresh/products/trai-cay/sp5-0x0.jpg" alt="">
+                                        </div>
+                                        <span class="home-promotion__name">Trái cam mật</span>
+                                        <div class="home-promotion__pice-wrap">
+                                            <span class="home-promotion__price">47.400đ</span>
+                                            <span class="home-promotion__old-price">130.000đ</span>
+                                        </div>
+                                        <div class="home-promotion__help">
+                                            <span class="home-promotion__help-like"><i class="fa-solid fa-heart"></i></span>
+                                            <span class="home-promotion__help-setting"><i class="fa-sharp fa-solid fa-gear"></i></span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6 home-promotion__product-promotion--res">
+                                    <a href="#" class="home-promotion__product-promotion home-promotion__product-promotion--has-line">
+                                        <div class="home-promotion__sale-off">-80%</div>
+                                        <div class="home-promotion__img-wrap">
+                                            <img class="home-promotion__img" src="https://sfresh.w2.exdomain.net/image/cache/catalog/sfresh/products/trai-cay/sp6-0x0.jpg" alt="">
+                                        </div>
+                                        <span class="home-promotion__name">Chanh tươi vỏ xanh</span>
+                                        <div class="home-promotion__pice-wrap">
+                                            <span class="home-promotion__price">7.600đ</span>
+                                            <span class="home-promotion__old-price">38.000đ</span>
+                                        </div>
+                                        <div class="home-promotion__help">
+                                            <span class="home-promotion__help-like"><i class="fa-solid fa-heart"></i></span>
+                                            <span class="home-promotion__help-setting"><i class="fa-sharp fa-solid fa-gear"></i></span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6 home-promotion__product-promotion--res">
+                                    <a href="#" class="home-promotion__product-promotion ">
+                                        <div class="home-promotion__sale-off">-60%</div>
+                                        <div class="home-promotion__img-wrap">
+                                            <img class="home-promotion__img" src="https://sfresh.w2.exdomain.net/image/cache/catalog/sfresh/products/trai-cay/sp3-0x0.jpg" alt="">
+                                        </div>
+                                        <span class="home-promotion__name">Dâu tây</span>
+                                        <div class="home-promotion__pice-wrap">
+                                            <span class="home-promotion__price">95.200đ</span>
+                                            <span class="home-promotion__old-price">238.000đ</span>
+                                        </div>
+                                        <div class="home-promotion__help">
+                                            <span class="home-promotion__help-like"><i class="fa-solid fa-heart"></i></span>
+                                            <span class="home-promotion__help-setting"><i class="fa-sharp fa-solid fa-gear"></i></span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="advertise-list">
+                        <div class="row">
+                            <div class="col l-6 m-6 c-12">
+                                <a href="#" class="advertise-item">
+                                    <img src="https://sfresh.w2.exdomain.net/image/cache/catalog/sfresh/slide/banner_1-0x0.jpg" alt="" class="advertise-item__img">
+                                </a>
+                            </div>
+                            <div class="col l-6 m-6 c-12 mt-10">
+                                <a href="#" class="advertise-item">
+                                    <img src="https://sfresh.w2.exdomain.net/image/cache/catalog/sfresh/slide/banner_2-0x0.jpg" alt="" class="advertise-item__img">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="home-product">
+                        <div class="row home-product__one">
+                            <div class="col l-3 m-4 c-12">
+                                <div class="home-product__category ml-10">
+                                    <label for="menu-mobile-apper__one" class="home-product__category-head-mobile">
+                                        <h3 class="home-product__category-heading">Trái cây</h3>
+                                        <span class="mobile-menu-icon"><i class="fa-solid fa-ellipsis"></i></span>
+                                    </label>
+                                    <input type="checkbox" name="" id="menu-mobile-apper__one">
+                                    <div class="home-product__category-wrap-mobile hide-on-mobile">
+                                        <ul class="home-product__category-list">
+                                            <li class="home-product__category-item">
+                                                <a href="#" class="home-product__category-link">Chuối</a>
+                                            </li>
+                                            <li class="home-product__category-item">
+                                                <a href="#" class="home-product__category-link">Táo</a>
+                                            </li>
+                                            <li class="home-product__category-item">
+                                                <a href="#" class="home-product__category-link">Ổi</a>
+                                            </li>
+                                            <li class="home-product__category-item">
+                                                <a href="#" class="home-product__category-link">Xoài</a>
+                                            </li>
+                                        </ul>
+                                        <a href="#" class="home-product__buy-product">Mua sắm ngay bây giờ</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-9 m-8 c-12 item-position">
+                                <label for="check-scroll-product-one" class="scroll__left scroll__left--mtl" >
+                                    <i class="fa-solid fa-chevron-left"></i>
+                                </label>
+                                <label for="check-scroll-product-one" class="scroll__right scroll__left--mtr">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </label>
+                                <div class="row home-product__wrap-item mt-20 ml-10 no-scroll">
+                                    
+                                    <input type="checkbox" name="" id="check-scroll-product-one">
+                                    <div class="col l-3 m-6 c-6 home-product__item-one">
+                                        <a href="#" class="home-promotion__product-promotion home-promotion__product-promotion--has-border">
+                                            <div class="home-promotion__sale-off">-56%</div>
+                                            <div class="home-promotion__img-wrap">
+                                                <img class="home-promotion__img" src="https://sfresh.w2.exdomain.net/image/cache/catalog/sfresh/products/thuc-pham-kho/sp22-0x0.jpg" alt="">
+                                            </div>
+                                            <span class="home-promotion__name">Ổi lê ruột đỏ</span>
+                                            <div class="home-promotion__pice-wrap">
+                                                <span class="home-promotion__price">28.000đ</span>
+                                                <span class="home-promotion__old-price">50.000đ</span>
+                                            </div>
+                                            <div class="home-promotion__help">
+                                                <span class="home-promotion__help-like"><i class="fa-solid fa-heart"></i></span>
+                                                <span class="home-promotion__help-setting"><i class="fa-sharp fa-solid fa-gear"></i></span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col l-3 m-6 c-6 home-product__item-one">
+                                        <a href="#" class="home-promotion__product-promotion home-promotion__product-promotion--has-border">
+                                            
+                                            <div class="home-promotion__img-wrap">
+                                                <img class="home-promotion__img" src="https://sfresh.w2.exdomain.net/image/cache/catalog/sfresh/products/thuc-pham-kho/sp32-480x480.jpg" alt="">
+                                            </div>
+                                            <span class="home-promotion__name">Bơ nấu ăn</span>
+                                            <div class="home-promotion__pice-wrap">
+                                                <span class="home-promotion__price">28.000đ</span>
+        
+                                            </div>
+                                            <div class="home-promotion__help">
+                                                <span class="home-promotion__help-like"><i class="fa-solid fa-heart"></i></span>
+                                                <span class="home-promotion__help-setting"><i class="fa-sharp fa-solid fa-gear"></i></span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col l-3 m-6 c-6 home-product__item-one">
+                                        <a href="#" class="home-promotion__product-promotion home-promotion__product-promotion--has-border">
+                                            
+                                            <div class="home-promotion__img-wrap">
+                                                <img class="home-promotion__img" src="https://sfresh.w2.exdomain.net/image/cache/catalog/sfresh/products/thuc-pham-kho/sp24-480x480.jpg" alt="">
+                                            </div>
+                                            <span class="home-promotion__name">Bánh mì gối</span>
+                                            <div class="home-promotion__pice-wrap">
+                                                <span class="home-promotion__price">20.000đ</span>
+                
+                                            </div>
+                                            <div class="home-promotion__help">
+                                                <span class="home-promotion__help-like"><i class="fa-solid fa-heart"></i></span>
+                                                <span class="home-promotion__help-setting"><i class="fa-sharp fa-solid fa-gear"></i></span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col l-3 m-6 c-6 home-product__item-one">
+                                        <a href="#" class="home-promotion__product-promotion home-promotion__product-promotion--has-border">
+                                            <div class="home-promotion__sale-off">-69%</div>
+                                            <div class="home-promotion__img-wrap">
+                                                <img class="home-promotion__img" src="https://sfresh.w2.exdomain.net/image/cache/catalog/sfresh/products/rau-cu/sp7-480x480.jpg" alt="">
+                                            </div>
+                                            <span class="home-promotion__name">Hành tây</span>
+                                            <div class="home-promotion__pice-wrap">
+                                                <span class="home-promotion__price">9.300đ</span>
+                                                <span class="home-promotion__old-price">30.000đ</span>
+                                            </div>
+                                            <div class="home-promotion__help">
+                                                <span class="home-promotion__help-like"><i class="fa-solid fa-heart"></i></span>
+                                                <span class="home-promotion__help-setting"><i class="fa-sharp fa-solid fa-gear"></i></span>
+                                            </div>
+                                        </a>
+                                    </div>
+    
+                                </div>
+                            </div>              
+                        </div>
+    
+                        <div class="row home-product__two">
+                            <div class="col l-9 m-8 c-12 item-position">
+                                <label for="check-scroll-product-two" class="scroll__left scroll__left--mtl" >
+                                    <i class="fa-solid fa-chevron-left"></i>
+                                </label>
+                                <label for="check-scroll-product-two" class="scroll__right scroll__left--mtr">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </label>
+                                <div class="row home-product__wrap-item mt-10 ml-10 no-scroll">
+                                    <input type="checkbox" name="" id="check-scroll-product-two">
+                                    <div class="col l-3 m-6 c-6 home-product__item-two">
+                                        <a href="#" class="home-promotion__product-promotion home-promotion__product-promotion--has-border">
+                                            <div class="home-promotion__sale-off">-60%</div>
+                                            <div class="home-promotion__img-wrap">
+                                                <img class="home-promotion__img" src="https://sfresh.w2.exdomain.net/image/cache/catalog/sfresh/products/rau-cu/sp20-480x480.jpg" alt="">
+                                            </div>
+                                            <span class="home-promotion__name">Cà chua</span>
+                                            <div class="home-promotion__pice-wrap">
+                                                <span class="home-promotion__price">12.000đ</span>
+                                                <span class="home-promotion__old-price">30.000đ</span>
+                                            </div>
+                                            <div class="home-promotion__help">
+                                                <span class="home-promotion__help-like"><i class="fa-solid fa-heart"></i></span>
+                                                <span class="home-promotion__help-setting"><i class="fa-sharp fa-solid fa-gear"></i></span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col l-3 m-6 c-6 home-product__item-two">
+                                        <a href="#" class="home-promotion__product-promotion home-promotion__product-promotion--has-border">
+                                            
+                                            <div class="home-promotion__img-wrap">
+                                                <img class="home-promotion__img" src="https://sfresh.w2.exdomain.net/image/cache/catalog/sfresh/products/rau-cu/sp19-480x480.jpg" alt="">
+                                            </div>
+                                            <span class="home-promotion__name">Ớt chuông vàng</span>
+                                            <div class="home-promotion__pice-wrap">
+                                                <span class="home-promotion__price">12.000đ</span>
+        
+                                            </div>
+                                            <div class="home-promotion__help">
+                                                <span class="home-promotion__help-like"><i class="fa-solid fa-heart"></i></span>
+                                                <span class="home-promotion__help-setting"><i class="fa-sharp fa-solid fa-gear"></i></span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col l-3 m-6 c-6 home-product__item-two">
+                                        <a href="#" class="home-promotion__product-promotion home-promotion__product-promotion--has-border">
+                                            
+                                            <div class="home-promotion__img-wrap">
+                                                <img class="home-promotion__img" src="https://sfresh.w2.exdomain.net/image/cache/catalog/sfresh/products/rau-cu/sp17-2-480x480.jpg" alt="">
+                                            </div>
+                                            <span class="home-promotion__name">Ớt chuông xanh</span>
+                                            <div class="home-promotion__pice-wrap">
+                                                <span class="home-promotion__price">14.000đ</span>
+                
+                                            </div>
+                                            <div class="home-promotion__help">
+                                                <span class="home-promotion__help-like"><i class="fa-solid fa-heart"></i></span>
+                                                <span class="home-promotion__help-setting"><i class="fa-sharp fa-solid fa-gear"></i></span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col l-3 m-6 c-6 home-product__item-two">
+                                        <a href="#" class="home-promotion__product-promotion home-promotion__product-promotion--has-border">
+                                            <div class="home-promotion__img-wrap">
+                                                <img class="home-promotion__img" src="https://sfresh.w2.exdomain.net/image/cache/catalog/sfresh/products/rau-cu/sp14-480x480.jpg" alt="">
+                                            </div>
+                                            <span class="home-promotion__name">Bông cải xanh</span>
+                                            <div class="home-promotion__pice-wrap">
+                                                <span class="home-promotion__price">15.000đ</span>
+                                               
+                                            </div>
+                                            <div class="home-promotion__help">
+                                                <span class="home-promotion__help-like"><i class="fa-solid fa-heart"></i></span>
+                                                <span class="home-promotion__help-setting"><i class="fa-sharp fa-solid fa-gear"></i></span>
+                                            </div>
+                                        </a>
+                                    </div>
+    
+                                </div>
+                            </div>
+                            <div class="col l-3 m-4 c-12 home__order">
+                                <div class="home-product__category home-product__category--background-one ml-10">
+                                    <label for="menu-mobile-apper__two" class="home-product__category-head-mobile">
+                                        <h3 class="home-product__category-heading">Rau củ quả</h3>
+                                        <span class="mobile-menu-icon"><i class="fa-solid fa-ellipsis"></i></span>
+                                    </label>
+                                    <input type="checkbox" name="" id="menu-mobile-apper__two">
+                                    <div class="home-product__category-wrap-mobile hide-on-mobile">
+                                        <ul class="home-product__category-list">
+                                            <li class="home-product__category-item">
+                                                <a href="#" class="home-product__category-link">Chuối</a>
+                                            </li>
+                                            <li class="home-product__category-item">
+                                                <a href="#" class="home-product__category-link">Táo</a>
+                                            </li>
+                                            <li class="home-product__category-item">
+                                                <a href="#" class="home-product__category-link">Ổi</a>
+                                            </li>
+                                            <li class="home-product__category-item">
+                                                <a href="#" class="home-product__category-link">Xoài</a>
+                                            </li>
+                                        </ul>
+                                        <a href="#" class="home-product__buy-product">Mua sắm ngay bây giờ</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="row home-product__three">
+                            <div class="col l-3 m-4 c-12">
+                                <div class="home-product__category home-product__category--background-two ml-10">
+                                    <label for="menu-mobile-apper__three" class="home-product__category-head-mobile">
+                                        <h3 class="home-product__category-heading">Thực phẩm tươi</h3>
+                                        <span class="mobile-menu-icon"><i class="fa-solid fa-ellipsis"></i></span>
+                                    </label>
+                                    <input type="checkbox" name="" id="menu-mobile-apper__three">
+                                    <div class="home-product__category-wrap-mobile hide-on-mobile">
+                                        <ul class="home-product__category-list">
+                                            <li class="home-product__category-item">
+                                                <a href="#" class="home-product__category-link">Chuối</a>
+                                            </li>
+                                            <li class="home-product__category-item">
+                                                <a href="#" class="home-product__category-link">Táo</a>
+                                            </li>
+                                            <li class="home-product__category-item">
+                                                <a href="#" class="home-product__category-link">Ổi</a>
+                                            </li>
+                                            <li class="home-product__category-item">
+                                                <a href="#" class="home-product__category-link">Xoài</a>
+                                            </li>
+                                        </ul>
+                                        <a href="#" class="home-product__buy-product">Mua sắm ngay bây giờ</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-9 m-8 c-12 item-position">
+                                <label for="check-scroll-product-three" class="scroll__left scroll__left--mtl" >
+                                    <i class="fa-solid fa-chevron-left"></i>
+                                </label>
+                                <label for="check-scroll-product-three" class="scroll__right scroll__left--mtr">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </label>
+                                <div class="row home-product__wrap-item mt-10 ml-10 no-scroll">
+                                    <input type="checkbox" name="" id="check-scroll-product-three">
+                                    <div class="col l-3 m-6 c-6 home-product__item-three">
+                                        <a href="#" class="home-promotion__product-promotion home-promotion__product-promotion--has-border">
+                                            <div class="home-promotion__sale-off">-56%</div>
+                                            <div class="home-promotion__img-wrap">
+                                                <img class="home-promotion__img" src="https://sfresh.w2.exdomain.net/image/cache/catalog/sfresh/products/thuc-pham-kho/sp22-0x0.jpg" alt="">
+                                            </div>
+                                            <span class="home-promotion__name">Ổi lê ruột đỏ</span>
+                                            <div class="home-promotion__pice-wrap">
+                                                <span class="home-promotion__price">28.000đ</span>
+                                                <span class="home-promotion__old-price">50.000đ</span>
+                                            </div>
+                                            <div class="home-promotion__help">
+                                                <span class="home-promotion__help-like"><i class="fa-solid fa-heart"></i></span>
+                                                <span class="home-promotion__help-setting"><i class="fa-sharp fa-solid fa-gear"></i></span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col l-3 m-6 c-6 home-product__item-three">
+                                        <a href="#" class="home-promotion__product-promotion home-promotion__product-promotion--has-border">
+                                            
+                                            <div class="home-promotion__img-wrap">
+                                                <img class="home-promotion__img" src="https://sfresh.w2.exdomain.net/image/cache/catalog/sfresh/products/thuc-pham-kho/sp32-480x480.jpg" alt="">
+                                            </div>
+                                            <span class="home-promotion__name">Bơ nấu ăn</span>
+                                            <div class="home-promotion__pice-wrap">
+                                                <span class="home-promotion__price">28.000đ</span>
+        
+                                            </div>
+                                            <div class="home-promotion__help">
+                                                <span class="home-promotion__help-like"><i class="fa-solid fa-heart"></i></span>
+                                                <span class="home-promotion__help-setting"><i class="fa-sharp fa-solid fa-gear"></i></span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col l-3 m-6 c-6 home-product__item-three">
+                                        <a href="#" class="home-promotion__product-promotion home-promotion__product-promotion--has-border">
+                                            
+                                            <div class="home-promotion__img-wrap">
+                                                <img class="home-promotion__img" src="https://sfresh.w2.exdomain.net/image/cache/catalog/sfresh/products/thuc-pham-kho/sp24-480x480.jpg" alt="">
+                                            </div>
+                                            <span class="home-promotion__name">Bánh mì gối</span>
+                                            <div class="home-promotion__pice-wrap">
+                                                <span class="home-promotion__price">20.000đ</span>
+                
+                                            </div>
+                                            <div class="home-promotion__help">
+                                                <span class="home-promotion__help-like"><i class="fa-solid fa-heart"></i></span>
+                                                <span class="home-promotion__help-setting"><i class="fa-sharp fa-solid fa-gear"></i></span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col l-3 m-6 c-6 home-product__item-three">
+                                        <a href="#" class="home-promotion__product-promotion home-promotion__product-promotion--has-border">
+                                            <div class="home-promotion__sale-off">-69%</div>
+                                            <div class="home-promotion__img-wrap">
+                                                <img class="home-promotion__img" src="https://sfresh.w2.exdomain.net/image/cache/catalog/sfresh/products/rau-cu/sp7-480x480.jpg" alt="">
+                                            </div>
+                                            <span class="home-promotion__name">Hành tây</span>
+                                            <div class="home-promotion__pice-wrap">
+                                                <span class="home-promotion__price">30.000đ</span>
+                                                <span class="home-promotion__old-price">9.300đ</span>
+                                            </div>
+                                            <div class="home-promotion__help">
+                                                <span class="home-promotion__help-like"><i class="fa-solid fa-heart"></i></span>
+                                                <span class="home-promotion__help-setting"><i class="fa-sharp fa-solid fa-gear"></i></span>
+                                            </div>
+                                        </a>
+                                    </div>
+    
+                                </div>
+                            </div>              
+                        </div>
+                    </div>
+    
+                    <div class="free-ship ml-10">
+                        <h3 class="free-ship__heading">Giao hàng miễn phí tận nhà trong vòng 24h</h3>
+                        <a href="#" class="free-ship__btn">Tìm hiểu thêm</a>
+                    </div>
+    
+                    <div class="other">
+                        <h3 class="other__heading">Tin tức mới nhất</h3>
+                        <div class="other__line"></div>
+                        <div class="item-position">
+                            <label for="check-scroll-img" class="scroll__left-img" >
+                                <i class="fa-solid fa-chevron-left"></i>
+                            </label>
+                            <label for="check-scroll-img" class="scroll__right-img">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </label>
+                            <div class="row other__product-wrap ml-10 no-scroll">
+                                <input type="checkbox" name="" id="check-scroll-img">
+                                <div class="col l-3 m-4 c-12 item-img">
+                                    <a href="#" class="other__product">
+                                        <img src="https://sfresh.w2.exdomain.net/image/cache/catalog/sfresh/tin-tuc/t4-480x480.jpg" alt="" class="other__product-img">
+                                        <div class="other__wrap">
+                                            <h3 class="other__product-name">Đi chợ online: Xu hướng lên ngôi trong năm nay</h3>
+                                            <div class="other__product-decription">
+                                                <span class="other__product-decription-name">John Doe</span>
+                                                <span class="other__product-decription-date">30/06/2022</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-3 m-4 c-12 item-img">
+                                    <a href="#" class="other__product">
+                                        <img src="https://sfresh.w2.exdomain.net/image/cache/catalog/sfresh/tin-tuc/t5-480x480.jpg" alt="" class="other__product-img">
+                                        <div class="other__wrap">
+                                            <h3 class="other__product-name">Cách chọn rau củ quả sạch tươi trong năm nay</h3>
+                                            <div class="other__product-decription">
+                                                <span class="other__product-decription-name">John Doe</span>
+                                                <span class="other__product-decription-date">30/06/2022</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-3 m-4 c-12 item-img">
+                                    <a href="#" class="other__product">
+                                        <img src="https://sfresh.w2.exdomain.net/image/cache/catalog/sfresh/tin-tuc/t6-480x480.jpg" alt="" class="other__product-img">
+                                        <div class="other__wrap">
+                                            <h3 class="other__product-name">Các loại ngũ cốc tốt cho sức khỏe</h3>
+                                            <div class="other__product-decription">
+                                                <span class="other__product-decription-name">John Doe</span>
+                                                <span class="other__product-decription-date">30/06/2022</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-3 m-4 c-12 item-img">
+                                    <a href="#" class="other__product">
+                                        <img src="https://sfresh.w2.exdomain.net/image/cache/catalog/sfresh/tin-tuc/t1-480x480.jpg" alt="" class="other__product-img">
+                                        <div class="other__wrap">
+                                            <h3 class="other__product-name">Cách chế biến món ăn từ rau củ quả</h3>
+                                            <div class="other__product-decription">
+                                                <span class="other__product-decription-name">John Doe</span>
+                                                <span class="other__product-decription-date">30/06/2022</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    
+        <footer class="footer">
+            <div class="footer__logo">
+                <img src="https://sfresh.w2.exdomain.net/image/catalog/sfresh/logo/logo.png" alt="" class="footer__logo-img">
+            </div>
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-4 m-12">
+                        <div class="footer__conatact">
+                            <h3 class="footer__conatact-heading">ĐĂNG KÝ NHẬN THÔNG TIN</h3>
+                            <span class="footer__conatact-decription">Đăng ký nhận bản tin để nhận ưu đãi đặc biệt về sản phẩm S.Fresh</span>
+                            <div class="footer__conatact-form">
+                                <input type="text" class="footer__conatact-input" placeholder="Email">
+                                <a href="#" class="footer__conatact-btn">Đăng ký</a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col l-4 m-6 mt-20">
+                        <div class="footer__conatact">
+                            <span class="footer__conatact-decription">Website thương mại điện tử S.Fresh do S Group là đơn vị chủ quản, chịu trách nhiệm và thực hiện các giao dịch liên quan mua sắm sản phẩm hàng hoá tiêu dùng thiết yếu.</span>
+                            <div class="footer__conatact-lemon hide-on-tablet-mobile ">
+                                <img src="https://sfresh.w2.exdomain.net/image/catalog/sfresh/img-footer.png" alt="" class="footer__conatact-lemon-img">
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col l-4 m-6 mt-20">
+                        <div class="footer__conatact">
+                            <h3 class="footer__conatact-heading">LIÊN HỆ</h3>
+                            <div class="footer__conatact-wrap">
+                                <span class="footer__conatact-decription footer__conatact-decription--bold">Địa chỉ: <a href="#" class="footer__conatact-decription-link">A12, Đinh Tiên Hoàng, Q. Hoàn Kiếm, Hà Nội</a> </span>
+                                <span class="footer__conatact-decription footer__conatact-decription--bold">Địện thoại: <a href="#" class="footer__conatact-decription-link">0123 456 789</a> </span>
+                                <span class="footer__conatact-decription footer__conatact-decription--bold">Email: <a href="#" class="footer__conatact-decription-link">contact@yourdomain.com</a> </span>
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
