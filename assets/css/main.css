@@ -1,9 +1,10 @@
 .app {
     overflow: hidden;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .header {
-    z-index: 2;
+    z-index: 5;
     background-color: #3ba66b;
     height: var(--header-height);
     position: fixed;
@@ -19,6 +20,8 @@
     align-items: center;
     position: relative;
 }
+
+
 
 .header__nav::after {
     position: absolute;
@@ -695,7 +698,7 @@
 }
 
 .overlay {
-    z-index: 3;
+    z-index: 6;
     position: fixed;
     top: 0;
     right: 0;
@@ -707,7 +710,7 @@
 }
 
 .modal {
-    z-index: 3;
+    z-index: 6;
     position: fixed;
     top: 0;
     left: 0;
@@ -716,6 +719,7 @@
     background-color: var(--white-color);
     transform: translateX(-100%);
     opacity: 0;
+    transition: all 0.3s linear;
 }
 
 .modal__head {
@@ -727,7 +731,7 @@
 
 .modal__login,
 .modal__register {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     padding: 20px 5px;
     color: var(--white-color);
     display: block;
@@ -807,6 +811,7 @@
 #check-scroll-img,
 #check-scroll {
     display: none;
+
 }
 
 #check-scroll-product-one:checked~.home-product__item-one,
@@ -814,7 +819,13 @@
 #check-scroll-product-three:checked~.home-product__item-three,
 #check-scroll:checked~.home-promotion__product-promotion--res {
     transform: translateX(-200%);
-    transition: all 0.3s;
+}
+
+.home-product__item-one,
+.home-product__item-two,
+.home-product__item-three,
+.home-promotion__product-promotion--res {
+    transition: all 0.3s linear;
 }
 
 .scroll__left-img {
@@ -837,7 +848,10 @@
 
 #check-scroll-img:checked~.item-img {
     transform: translateX(-100%);
-    transition: all 0.3s;
+}
+
+.item-img {
+    transition: all 0.3s linear;
 }
 
 .mobile-menu-icon {
@@ -854,8 +868,6 @@
 .home-product__category-wrap-mobile {
     padding-left: 16px;
 }
-
-
 
 @keyframes fadeIn {
     from {

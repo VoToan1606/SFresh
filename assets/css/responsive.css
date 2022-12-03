@@ -23,6 +23,10 @@
         display: block;
     }
 
+    .header__icon-link {
+        font-size: 2.6rem;
+    }
+
     .header__list {
         padding-top: 10px;
         flex-direction: column;
@@ -30,16 +34,21 @@
 
 
     .header__list-item-link {
-        padding: 10px;
+        padding: 16px 0 16px 10px;
         display: block;
         color: #000;
-        font-size: 1.6rem;
+        font-size: 2rem;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .no-border {
+        color: red;
     }
 
     .header-list-link-category,
     .header__list-link-mini-category {
         border-bottom: none;
-        font-size: 1.4rem;
+        font-size: 1.6rem;
     }
 
     .header__list-category {
@@ -136,6 +145,10 @@
         padding-top: 22px;
     }
 
+    .header__search-btn {
+        padding: 14px 16px;
+    }
+
     .header__search form {
         position: absolute;
         top: 58%;
@@ -146,6 +159,7 @@
 
     .header__search-input {
         width: 84%;
+        font-size: 1.8rem;
     }
 
     .slider__img {
@@ -184,7 +198,7 @@
     }
 
     .other__heading {
-        font-size: 2.4rem;
+        font-size: 2.8rem;
     }
 
     .other__line {
@@ -201,6 +215,16 @@
 
     .home-product__category-heading {
         padding: 10px;
+        font-size: 2.4rem;
+    }
+
+    .home-product__category-link {
+        font-size: 1.8rem;
+    }
+
+    .home-product__buy-product {
+        font-size: 1.6rem;
+        padding: 8px 12px
     }
 
     .home-product__category-head-mobile {
@@ -209,9 +233,26 @@
         justify-content: space-between;
     }
 
+    .home-promotion__name {
+        font-size: 1.8rem;
+        height: 2rem;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 1;
+    }
+
+    .home-promotion__pice-wrap {
+        font-size: 1.6rem;
+    }
+
 
     .mobile-menu-icon {
         display: block;
+    }
+
+    .home-product__category-wrap-mobile {
+        display: none;
     }
 
     #menu-mobile-apper__one:checked~.home-product__category-wrap-mobile,
@@ -237,7 +278,19 @@
         margin-right: 19px;
     }
 
+    .home-promotion__product-promotion {
+        padding-bottom: 10px;
+    }
 
+    .footer__conatact-heading {
+        font-size: 1.8rem;
+    }
 
+    .footer__conatact-input {
+        font-size: 1.8rem;
+    }
 
+    .footer__conatact-btn {
+        font-size: 1.8rem;
+    }
 }
